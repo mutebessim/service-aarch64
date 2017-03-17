@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+    <addon id="service.wp2-oscam" name="WP2-OSCam" version="1.2" provider-name="kralex">
+        <requires>
+            <import addon="xbmc.python" version="2.1.0" />
+        </requires>
+        <extension point="xbmc.service" library="default.py">
+            <provides></provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>OsCam Emu for LibreElec aarch64 architecture</summary>
+            <description>
+oscam-1.20-unstable_svn-r11378 for LibreElec aarch64 architecture
+    </description>
+            <disclaimer>
+May be illegal in your country. if in doubt, do not install
+    </disclaimer>
+            <platform>all</platform>
+            <news>
+updated to oscam-svn11378-aarch64-webif-oscam-emu-patched
+    </news>
+            <assets>
+                <icon>resources/icon.png</icon>
+                <fanart>resources/fanart.png</fanart>
+            </assets>
+        </extension>
+    </addon>
+</addons>
